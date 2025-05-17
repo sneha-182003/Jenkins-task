@@ -1,6 +1,7 @@
 Jenkins Job Creation: Implementing Version Control in Your CI/CD Pipeline
 
 1.Creating the Jenkins Job
+
 Opened Jenkins and clicked on “New Item”.
 Created a Freestyle project and named it Newitem.
 Under the Source Code Management section, selected Git.
@@ -8,11 +9,13 @@ Entered my GitHub repository URL: https://github.com/sneha-182003/Jenkins-task
 Changed the branch specification from master to main, since my GitHub repo uses main as the default branch.
 
 2. Adding Build Steps
+   
 In the Build section, I added a Windows batch command.
 I used the following command to simulate a simple build: echo "Building the project..."
 This command was added in the “Execute Windows batch command” section and used to verify that Jenkins executes the build step after cloning the repository.
 
 3. Running the Build and Output
+   
 Clicked Build Now to trigger the build manually.
 Viewed the logs under Console Output, which showed the following:
 
