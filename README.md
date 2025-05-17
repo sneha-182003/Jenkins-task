@@ -25,6 +25,7 @@ Executed the batch command
 Finished the build successfully
 
 Challenges Faced and Solution
+
 I initially got an error:
 “Couldn't find any revision to build.”
 This happened because Jenkins was looking for the master branch, which didn’t exist in my GitHub repo.
